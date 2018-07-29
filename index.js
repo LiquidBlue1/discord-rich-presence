@@ -40,7 +40,7 @@ function makeClient(clientId) {
     }
   }();
 
-  rpc.login({ 473083012695851008 })
+  rpc.login({ clientId })
     .then(() => {
       instance.emit('connected');
       connected = true;
