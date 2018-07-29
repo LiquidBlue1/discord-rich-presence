@@ -5,7 +5,7 @@ const EventEmitter = require('events');
 
 const browser = typeof window !== 'undefined';
 
-function makeClient(clientId) {
+function makeClient(473083012695851008) {
   const rpc = new Discord.Client({ transport: browser ? 'websocket' : 'ipc' });
 
   let connected = false;
@@ -40,7 +40,7 @@ function makeClient(clientId) {
     }
   }();
 
-  rpc.login({ clientId })
+  rpc.login({ 473083012695851008 })
     .then(() => {
       instance.emit('connected');
       connected = true;
