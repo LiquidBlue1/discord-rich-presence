@@ -67,14 +67,4 @@ function makeClient(473083012695851008) {
 
 module.exports = makeClient;
 
-const client = require('discord-rich-presence')('473083012695851008');
- 
-client.updatePresence({
-  state: 'slithering',
-  details: '🐍',
-  startTimestamp: Date.now(),
-  endTimestamp: Date.now() + 1337,
-  largeImageKey: 'crown_big',
-  smallImageKey: 'crown_small',
-  instance: true,
-});
+
